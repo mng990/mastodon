@@ -1,5 +1,4 @@
 # syntax=docker/dockerfile:1.4
-# syntax=docker/dockerfile:experimental
 
 # This needs to be bullseye-slim because the Ruby image is built on bullseye-slim
 ARG NODE_VERSION="16.18.1-bullseye-slim"
